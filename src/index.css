@@ -1,0 +1,119 @@
+:root {
+  --bg: #f5f6fa;
+  --primary: #5a4fcf;
+  --secondary: #ffffff;
+  --accent: #ff6584;
+  --text: #2c2c2c;
+  --muted: #666;
+  --shadow: rgba(0, 0, 0, 0.08);
+
+  
+  --c1: #5a4fcf;   
+  --c2: #ffffff;  
+  --c3: #333333;  
+  --c4: #ff6584;   
+  --t1: rgba(0, 0, 0, 0.2); 
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Títulos */
+h1, h2 {
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* Container do cadastro compacto */
+.form-container {
+  max-width: 420px;
+  margin: 1rem auto 2rem auto;
+  padding: 1.2rem 1.5rem;
+  background: var(--secondary);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+.form-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Inputs */
+input, select, textarea {
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+/* Botões */
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  padding: 0.55rem 1.2rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+button:hover {
+  background-color: var(--accent);
+}
+
+/* Lista de receitas mais compacta */
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.recipe-card {
+  background: var(--secondary);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px var(--shadow);
+  padding: 0.8rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.recipe-card:hover {
+  transform: translateY(-3px);
+}
+
+.recipe-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+}
+
+.recipe-card h3 {
+  color: var(--primary);
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.recipe-card p {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
