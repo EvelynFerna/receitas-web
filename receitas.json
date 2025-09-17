@@ -1,0 +1,56 @@
+[
+  {
+    "id": 94,
+    "nome": "Miojo",
+    "tipo": "SALGADA",
+    "ingredientes": "M",
+    "modoFazer": "M",
+    "img": "https://ogimg.infoglobo.com.br/in/25191257-11f-f6a/FT1086A/95174042_RS-Rio-de-Janeiro-RJ-09-09-2021O-chef-Rafael-cavalieri-demonstra-versoes-melhoradas-do-m.jpg",
+    "custoAproximado": 6.5
+  },
+  {
+    "id": 98,
+    "nome": "Brigadeiro",
+    "tipo": "DOCE",
+    "ingredientes": "Uma lata de brigadeiro pronto",
+    "modoFazer": "Abra a lata",
+    "img": "https://static.itdg.com.br/images/360-240/a373f494abb2c3360b9966f5abe130e2/brigadeiro-.jpg",
+    "custoAproximado": 15.99
+  },
+  {
+    "id": 97,
+    "nome": "Ovo fritooo",
+    "tipo": "SALGADA",
+    "ingredientes": "12 ovos",
+    "modoFazer": "Frite os ovos",
+    "img": "https://s2-receitas.glbimg.com/-3gVq-_w-zBEgZlnty0-HVhr00w=/0x0:237x212/984x0/smart/filters:strip_icc()/s.glbimg.com/po/rc/media/2014/01/23/22_16_39_163_images.jpg",
+    "custoAproximado": 15
+  },
+  {
+    "id": 106,
+    "nome": "Bolo Clash Royal",
+    "tipo": "DOCE",
+    "ingredientes": "bolo, clash royale",
+    "modoFazer": "saber fazer bolo,  jogar clash royale",
+    "img": "https://i.pinimg.com/736x/db/fa/18/dbfa18309255be32153505ff93ce669d.jpg",
+    "custoAproximado": 100000
+  },
+  {
+    "id": 109,
+    "nome": "Ovo cozido",
+    "tipo": "SALGADA",
+    "ingredientes": "1 Ovo",
+    "modoFazer": "Ferva a água e bote o ovo",
+    "img": "https://vejario.abril.com.br/wp-content/uploads/2016/12/ovo-cozido.jpg?crop=1&resize=1212,909",
+    "custoAproximado": 3
+  },
+  {
+    "id": 92,
+    "nome": "mandioca",
+    "tipo": "SALGADA",
+    "ingredientes": "mandioca braba",
+    "modoFazer": "cozinhar",
+    "img": "https://saude.abril.com.br/wp-content/uploads/2016/12/mandioca.jpg?quality=50&strip=info",
+    "custoAproximado": 0
+  }
+]
