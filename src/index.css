@@ -22,7 +22,6 @@ body {
   line-height: 1.4;
 }
 
-/* Títulos */
 h1, h2 {
   text-align: center;
   margin: 1rem 0;
@@ -30,7 +29,6 @@ h1, h2 {
   color: var(--primary);
 }
 
-/* Container do cadastro compacto */
 .form-container {
   max-width: 420px;
   margin: 1rem auto 2rem auto;
@@ -45,7 +43,6 @@ h1, h2 {
   font-size: 1.2rem;
 }
 
-/* Inputs */
 input, select, textarea {
   width: 100%;
   padding: 0.55rem 0.75rem;
@@ -60,7 +57,6 @@ input:focus, select:focus, textarea:focus {
   outline: none;
 }
 
-/* Botões */
 button {
   display: inline-block;
   border: none;
@@ -78,7 +74,6 @@ button:hover {
   background-color: var(--accent);
 }
 
-/* Lista de receitas mais compacta */
 .recipe-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
